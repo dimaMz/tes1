@@ -1,0 +1,130 @@
+.story {
+    margin: 0;
+    font-size: 100px;
+    letter-spacing: 50px;
+    color: #A9A9A9;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.header, .main {
+    padding-left: 140px;
+}
+
+
+header.header {
+    height: 300px;
+}
+
+.header {
+    height: 200px;
+}
+@media (min-width: 768px) {
+
+}
+.marcy {
+    padding: 001px;
+    margin: 0;
+    font-size: 40px;
+    color: #5e1111;
+}
+
+.row {
+    position: relative;
+    margin-bottom: 70px;
+}
+.div-text {
+    display: inline-block;
+    width: 48%;
+}
+.div-text.article, .div-text.article .text {
+    display: inline-block;
+    width: 100%;
+}
+
+.div-text .link .full-story {
+    font-size: 10px;
+    font-family: "Poppins";
+    color: white;
+    background-color: #80b7b3;
+    border-radius: 15px;
+    width: 17%;
+    padding: 5px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+.div-text .text, .div-text .title {
+    display: inline-block;
+    width: 60%;
+}
+.image-block {
+    display: inline-block;
+    width: 20%;
+}
+.image-block .image {
+    display: inline-block;
+    width: 715px;
+    height: 586px;
+    border: 5px solid #7a7b7c;
+    margin-right: 500px;
+}
+.img-absolute {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 45%;
+    width: 250px;
+}
+.img-absolute .img-above {
+    border: 5px solid #7a7b7c;
+    width:300px;
+    display: block;
+    height: 200px;
+}
+.top-bar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35px;
+    left: 50%;
+    -webkit-box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
+    -moz-box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
+    box-shadow: 0px 40px 38px -8px rgba(156,158,158,0.74);
+    width: 200px;
+    height: 55px;
+    background-color: #B0C4DE;
+    text-align: center;
+}
+.img-inst{
+    display: block;
+    margin-left: 50px;
+    margin-right: auto
+}
+.title{
+    font-size: 50px;
+    color: #708090;
+}
+.text{
+    font-size: 20px;
+}
+.h2{
+    font-size: 30px;
+    color: #4682B4;
+}
+.ol{
+    font-size: 17px;
+}
